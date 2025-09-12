@@ -24,6 +24,7 @@ import { User } from '../models/user';
       <button (click)="delete_user(user.id)"><i class="far fa-trash-alt"></i></button>
     </td>
     }
+    <div>test</div>
   `,
 })
 export class UserListItem {
