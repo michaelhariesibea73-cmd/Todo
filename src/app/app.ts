@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+import { Component, signal } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+
+@Component({
+  selector: 'app-root',
+  imports: [RouterOutlet],
+  templateUrl: './app.html',
+  styleUrl: './app.css'
+})
+export class App {
+  protected readonly title = signal('todo-list');
+=======
 import { Component, ElementRef, signal, ViewChild } from '@angular/core';
 
 import { User } from './models/user';
@@ -169,4 +182,5 @@ export class App {
     this.page.size = select.value;
     this.readpage(this.page);
   }
+>>>>>>> master
 }

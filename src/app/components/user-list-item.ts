@@ -1,5 +1,9 @@
 import { Component, ElementRef, EventEmitter, Input, Output, signal, ViewChild } from '@angular/core';
+<<<<<<< HEAD
+import { User } from './models/user';
+=======
 import { User } from '../models/user';
+>>>>>>> master
 
 @Component({
   selector: 'tr',
@@ -25,6 +29,10 @@ import { User } from '../models/user';
     </td>
     }
     <div>test</div>
+<<<<<<< HEAD
+    <div>main change for the test</div>
+=======
+>>>>>>> master
   `,
 })
 export class UserListItem {
